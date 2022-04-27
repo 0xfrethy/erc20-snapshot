@@ -1,0 +1,62 @@
+{
+  "_from": "erc20-snapshot",
+  "_id": "erc20-snapshot@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-mA1+3gahbC8bO2DDCxurR440uQrdDlVMZVAonfSSqvLGWKGOFLVmKGi7NojTzz1LpEMS1XB05HoVL+08dMANBA==",
+  "_location": "/erc20-snapshot",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "erc20-snapshot",
+    "name": "erc20-snapshot",
+    "escapedName": "erc20-snapshot",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/erc20-snapshot/-/erc20-snapshot-1.0.2.tgz",
+  "_shasum": "d04e859b949b1268ad1005dee38a9c0925c4e363",
+  "_spec": "erc20-snapshot",
+  "_where": "/Volumes/Work/Projects/CyberFi/StableVault/one-ring-polygon",
+  "author": {
+    "name": "Binod Nirvan"
+  },
+  "bin": {
+    "erc20-snapshot": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/binodnp/erc20-snapshot/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "csv-writer": "^1.3.0",
+    "inquirer": "^6.3.1",
+    "linq": "^3.2.0",
+    "web3": "^1.0.0-beta.55"
+  },
+  "deprecated": false,
+  "description": "ERC20 Token Snapshot",
+  "homepage": "https://github.com/binodnp/erc20-snapshot",
+  "keywords": [
+    "ethereum",
+    "erc20",
+    "token",
+    "snapshot"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "erc20-snapshot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binodnp/erc20-snapshot.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
